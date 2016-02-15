@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+a:active {
+    outline: 0;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: normal;
+}
+
+a,
+img {
+    -webkit-call-out: none;
+}
+
+input,
+select {
+    outline: none;
+    font-family: 'Microsoft Yahei' 'Helvetica Neue', Helvetica, STHeiTi, Arial, sans-serif;
+}
+
+input[type="text"],
+input[type="tel"] {
+    -webkit-tap-highlight-color: transparent;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    border-radius: 0;
+    background: none;
+    border: none;
+}
+
+html {
+    font-size: 10px;
+    color: #666;
+    font-family: Arial, 'Microsoft Yahei' 'Helvetica Neue', Helvetica, STHeiTi, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    display: none;
+}
+
+::-webkit-scrollbar-track {
+    width: 0;
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 0;
+    display: none;
+}
+
+@media only screen and (min-width: 320px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+    html {
+        font-size: 10.5px;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    html {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: 11px;
+    }
+}
+
+body {
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+html.gray,
+html.gray body {
+    background-color: #EEEEF0;
+}
